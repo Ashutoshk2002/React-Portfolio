@@ -10,7 +10,7 @@ const Navbar = () => {
                 <a href="/" aria-label="Home">
                     <img src={logo} alt="Logo" className="mx-2" width={50} height={33} /></a>
             </div>
-            <div className="m-8 flex items-center justify-center gap-4 text-2xl text-white">
+            <div className="m-8 flex items-center justify-center gap-4 text-2xl">
                 <a className="hover:text-[#0A66C2] transform hover:scale-125 transition duration-300" href="https://www.linkedin.com/in/ashutosh-khairnar-70ab151ba/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <FaLinkedin />
                 </a>
